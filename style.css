@@ -353,9 +353,9 @@ input[readonly] {
     padding: 6px;
   }
 
-#invoiceComment{
-  width: 20.5rem;
-}
+  #invoiceComment {
+    width: 20.5rem;
+  }
 
   .item-table th,
   .item-table td {
@@ -387,5 +387,8 @@ input[readonly] {
   .cta {
     width: 100%;
   }
-}
 
+  #invoiceComment {
+    width: 20.5rem;
+  }
+}
