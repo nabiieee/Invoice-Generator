@@ -296,7 +296,6 @@ input[readonly] {
   }
 }
 
-
 /* Responsive styles */
 @media (max-width: 1024px) {
   .invoice-container {
@@ -315,21 +314,25 @@ input[readonly] {
 @media (max-width: 768px) {
   .navbar {
     flex-direction: column;
+    align-items: flex-start;
     padding: 10px;
   }
 
   .nav-actions {
     flex-direction: column;
+    align-items: flex-start;
     gap: 10px;
     margin: 10px 0;
   }
 
   .main-heading {
-    font-size: 3rem;
+    font-size: 2.5rem;
+    text-align: center;
   }
 
   .subheading {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
+    text-align: center;
   }
 
   .cta {
@@ -340,6 +343,45 @@ input[readonly] {
   #downloadPDF {
     width: 90%;
     margin: 20px auto;
+  }
+
+  .form-table td,
+  .form-preview td,
+  #itemsTable th,
+  #itemsTable td {
+    font-size: 12px;
+    padding: 6px;
+  }
+
+  .item-table th,
+  .item-table td {
+    font-size: 12px;
+    padding: 6px 8px;
+  }
+
+  .invoice-footer {
+    margin-top: 20px;
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .navbar {
+    align-items: center;
+  }
+
+  .nav-actions a,
+  .login-btn {
+    font-size: 14px;
+  }
+
+  .invoice-form,
+  .invoice-preview {
+    padding: 15px;
+  }
+
+  .cta {
+    width: 100%;
   }
 }
 
