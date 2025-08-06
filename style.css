@@ -391,4 +391,8 @@ input[readonly] {
   #invoiceComment {
     width: 14rem;
   }
+
+  #taxRate{
+    width: 2rem;
+  }
 }
