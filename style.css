@@ -395,6 +395,7 @@ input[readonly] {
 
   .item-table td input {
     font-size: 10px;
+    width: 90%;
   }
 
   .cta {
