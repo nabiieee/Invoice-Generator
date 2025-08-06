@@ -360,13 +360,20 @@ input[readonly] {
   .item-table th,
   .item-table td {
     font-size: 12px;
-    padding: 6px 8px;
+    padding: 6px;
   }
 
   .invoice-footer {
     margin-top: 20px;
     font-size: 12px;
   }
+
+  .item-table td input {
+    width: 100%;
+    border: none;
+    background-color: #ffffff;
+    font-size: 10px;
+    color: #111827;
 }
 
 @media (max-width: 480px) {
@@ -384,6 +391,18 @@ input[readonly] {
     padding: 15px;
   }
 
+  .item-table th,
+  .item-table td {
+    padding: 6px 6px;
+  }
+
+  .item-table td input {
+    width: 100%;
+    border: none;
+    background-color: #ffffff;
+    font-size: 10px;
+    color: #111827;
+
   .cta {
     width: 100%;
   }
@@ -392,7 +411,7 @@ input[readonly] {
     width: 14rem;
   }
 
-  #taxRate{
+  #taxRate {
     width: 2rem;
   }
 }
