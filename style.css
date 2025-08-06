@@ -390,7 +390,7 @@ input[readonly] {
 
   .item-table th,
   .item-table td {
-    padding: 6px 6px;
+    padding: 6px 2px;
   }
 
   .item-table td input {
